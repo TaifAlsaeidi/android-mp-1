@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E03A9F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#1203A9F4"
+        android:ellipsize="middle"
+        android:includeFontPadding="true"
+        android:text="Grade Calculator "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#3F51B5"
+        android:textColorHighlight="#5E1E1E"
+        android:textColorHint="#FFEB3B"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform" />
+
+    <EditText
+        android:id="@+id/Quizes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/HW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Homework 25%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Mid terms 30%"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Final 30%"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="182dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="170dp"
+        android:text="RESET" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="189dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#432E2E"
+        android:hint="Result"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
